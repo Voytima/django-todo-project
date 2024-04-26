@@ -1,1 +1,1 @@
-# Dajngo TODO Project
+# Django TODO Project
