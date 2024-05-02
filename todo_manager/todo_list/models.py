@@ -8,6 +8,7 @@ class ToDoItem(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     class Meta:
+        ordering = ('done',)
         verbose_name = 'ToDo Item'
         verbose_name_plural = 'ToDo Items'
 
